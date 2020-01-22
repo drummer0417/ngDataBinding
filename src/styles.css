@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+.text-green {
+    color: rgb(53, 228, 53);
+    background-color: red;
+}
+
+.text-red {
+    color: red;
+    background-color: green;
+}
+
+.midden {
+    text-align: center;
+}
+
+.vetJonguh {
+    font-weight: bold
+}
