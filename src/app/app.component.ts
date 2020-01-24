@@ -14,8 +14,7 @@ export class AppComponent {
     console.log(event);
     if (event.eventId % 2 === 0) {
       this.evenNumbers.push(event.eventId);
-    }
-    else {
+    }  else {
       this.oddNumbers.push(event.eventId);
     }
     console.log('odd: ' + this.oddNumbers);

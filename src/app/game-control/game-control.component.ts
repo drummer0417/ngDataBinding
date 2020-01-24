@@ -22,7 +22,6 @@ export class GameControlComponent implements OnInit {
     this.onStopGame();
     this.timer = setInterval(() => { 
       this.eventNumber++;
-      console.log('timer started ' + this.eventNumber);
       this.gameClickEvent.emit({eventId: this.eventNumber});
      }, 1000);
   }

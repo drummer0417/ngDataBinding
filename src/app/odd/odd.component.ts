@@ -7,13 +7,10 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class OddComponent implements OnInit {
 
-  @Input() oddGameEvent: number;
+  @Input() oddNumber: number;
 
   constructor() { }
 
-  ngOnInit() {
-    console.log('oddGameEvent: ' + this.oddGameEvent);
-  }
+  ngOnInit() {}
   
-
 }
